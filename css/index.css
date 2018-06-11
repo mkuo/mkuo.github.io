@@ -1,0 +1,91 @@
+body {
+  font-family: trebuchet MS, sans-serif
+}
+
+#intro {
+  margin-top: 5em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+section:not(#intro){
+  padding: 1em 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-image: linear-gradient(to right, white, #ddd, white) 100% 1;
+
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+li {
+  padding: 2px;
+}
+
+.links {
+  padding-bottom: 8px;
+}
+
+.icon {
+  padding: 0 2px;
+  max-height: 24px;
+}
+
+#intro {
+  max-height: 400px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#profile-picture {
+  max-height: 400px;
+}
+
+.desktop {
+  border: solid 1px lightgray;
+  border-radius: 4px;
+}
+
+.ios {
+  height: 600px;
+  max-width: 100%;
+  padding-top: 12px;
+}
+
+.caption {
+  color: gray;
+}
+
+@media only screen and (max-width: 1000px) {
+  #intro {
+    margin: 2em 0;
+  }
+  #intro-outer {
+    max-width: 560px;
+  }
+  #intro-inner {
+    width: 100%;
+  }
+  #profile-picture {
+    display: none;
+  }
+  .pull-right {
+    /* width: 100%; */
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 36px;
+  }
+}

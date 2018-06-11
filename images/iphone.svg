@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="132px" height="269px" viewBox="0 0 132 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M114.938,268.081 L17.063,268.081 C8.192,268.081 1.001,261.10171 1.001,252.490442 L1.001,16.6715577 C1.001,8.06028982 8.192,1.081 17.063,1.081 L114.938,1.081 C123.809,1.081 131,8.06028982 131,16.6715577 L131,252.490442 C131,261.10171 123.809,268.081 114.938,268.081 Z" id="bezel" stroke="#7E89A3" stroke-width="0.5" fill="#FFFFFF"></path>
+        <rect id="screen" stroke="#D8D8D8" x="10" y="35" width="112" height="200"></rect>
+        <path d="M78,19.294009 C78,19.6848584 77.5622337,20 77.0227541,20 L56.9772459,20 C56.4367691,20 56,19.6842429 56,19.294009 L56,17.705991 C56,17.3151416 56.4377663,17 56.9772459,17 L77.0227541,17 C77.5622337,17 78,17.3157571 78,17.705991 L78,19.294009 L78,19.294009 L78,19.294009 Z" id="speaker" fill="#D8D8D8"></path>
+        <circle id="camera" fill="#D8D8D8" cx="44.5" cy="18.5" r="2.5"></circle>
+        <circle id="flash" fill="#F8F8F8" cx="66.5" cy="7.5" r="1.5"></circle>
+        <ellipse id="lock" stroke="#D8D8D8" fill="#F8F8F8" cx="66.04" cy="252.001" rx="10.04" ry="10.001"></ellipse>
+    </g>
+</svg>
