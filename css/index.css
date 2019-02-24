@@ -1,5 +1,6 @@
 body {
-  font-family: trebuchet MS, sans-serif
+  font-family: 'Trebuchet MS', sans-serif;
+  min-width: 360px;
 }
 
 #intro {
@@ -39,10 +40,6 @@ li {
   max-height: 24px;
 }
 
-#intro {
-  max-height: 400px;
-}
-
 img {
   max-width: 100%;
 }
@@ -78,9 +75,6 @@ img {
   }
   #profile-picture {
     display: none;
-  }
-  .pull-right {
-    /* width: 100%; */
   }
 }
 
