@@ -44,7 +44,20 @@ img {
   max-width: 100%;
 }
 
-#profile-picture {
+#intro div.container {
+  display: flex;
+}
+
+#thumbnail {
+  display: none
+}
+
+#profile-pic {
+  margin-top: auto;
+  padding-left: 0;
+}
+
+#profile-pic img {
   max-height: 400px;
 }
 
@@ -67,19 +80,46 @@ img {
   #intro {
     margin: 2em 0;
   }
-  #intro-outer {
-    max-width: 560px;
+  #intro div.container {
+    max-width: 640px;
+    flex-direction: column;
   }
-  #intro-inner {
+  #summary {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
-  #profile-picture {
+  .header {
+    margin: 4px 0;
+  }
+  h1 {
+    display: inline;
+    vertical-align: middle;
+  }
+  #thumbnail {
+    display: inline;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    border: 1px solid gray;
+    margin-left: 4px;
+  }
+  #thumbnail img {
+    vertical-align: middle;
+  }
+  #profile-pic {
     display: none;
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 440px) {
   h1 {
-    font-size: 36px;
+    font-size: 32px;
+  }
+  #thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-left: 4px;
   }
 }
