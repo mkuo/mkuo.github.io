@@ -5,6 +5,7 @@ body {
 
 #intro {
   margin-top: 5em;
+  margin-bottom: 1em;
 }
 
 h1 {
@@ -59,6 +60,10 @@ img {
 
 #profile-pic img {
   max-height: 400px;
+  display: inline;
+  border-radius: 256px;
+  border: 1px solid gray;
+  margin-bottom: 12px;
 }
 
 .desktop {
